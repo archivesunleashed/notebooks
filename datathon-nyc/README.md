@@ -43,20 +43,22 @@ One machine available:
 
 ## Getting Started
 
+Please note, the datathon hosts (Ian, Jimmy, Nick, and Sam) all use macOS or Linux   variants. If you are on a Windows machine, things might be a little bit more difficult. If you have the [Windows SubSystem for Linux](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/) installed, you should be in a really good place.
+
 ### Shell into assigned VM
 
-Shell into your assigned datathon VM with the provided key, and IP address:
+Ian or Nick will provide you with key to access a virtual machine via ssh. You'll need to download or copy that key to your own machine, and apply the appropriate permissions to it. The permissions on the key should be `600`. You can do this with the following command on your own laptop before shelling in:
+
+  ```
+  chmod 600 /path/to/archives-hackathon.key
+  ```
+
+Once you have the permissions set on the key, you can shell into your assigned datathon virtual machine with the provided key, and IP address:
 
 Example:
 
 ```
 ssh -L 8888:localhost:8888 -i ~/.ssh/archives-hackathon.key ubuntu@206.167.181.253
-```
-
-The permissions on the key should be `600`. You can do this with the following command on your own laptop before shelling in:
-
-```
-chmod 600 /path/to/archives-hackathon.key
 ```
 
 ### Start Juypter Notebook
@@ -76,9 +78,13 @@ Select one of the two example notebooks.
 
 ### Start Spark with AUT
 
+If you'd like to use Apache Spark and the Archives Unleashed Toolkit to analyze WARC/ARCs, you can get Spark started with the toolkit with the following command:
+
 ```
 ~/spark/bin/spark-shell --packages "io.archivesunleashed:aut:0.50.0"
 ```
+
+Documentation for the 0.50.0 release is available [here](https://github.com/archivesunleashed/aut-docs/tree/master/aut-0.50.0), and if you need a refresher on the datathon homework, it is available [here](https://github.com/archivesunleashed/aut-docs/blob/master/aut-0.50.0/toolkit-walkthrough.md).
 
 ## Datasets
 
