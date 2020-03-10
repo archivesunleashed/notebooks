@@ -25,7 +25,8 @@
   -  findspark, wordcloud, spacy, pyarrow, jupyter, tldextract, jupyter_contrib_nbextensions, pyspark
   -  feel free to `conda install` or `pip install` whatever else you need
 - OpenJDK 8
-- Spark 2.4.5 (SPARK_HOME `/home/ubuntu/spark`)
+- Spark 2.4.5
+  - `SPARK_HOME=/home/ubuntu/spark`
 - jq
 
 **c8-45gb-430gb**
@@ -37,7 +38,8 @@
   - findspark, wordcloud, spacy, pyarrow, jupyter, tldextract, jupyter_contrib_nbextensions, pyspark
   - feel free to `conda install` or `pip install` whatever else you need
 - OpenJDK 8
-- Spark 2.4.5 (SPARK_HOME `/home/ubuntu/spark`)
+- Spark 2.4.5
+  - `SPARK_HOME=/home/ubuntu/spark`
 - jq
 
 ## Getting Started
@@ -81,7 +83,7 @@ Select one of the two example notebooks.
 
 ## Datasets
 
-Scholarly derivatives created on cloud.archivesunleashed.org, and Parquet files can be downloaded for each collection to `/mnt/data`
+Scholarly derivatives created on cloud.archivesunleashed.org, and Parquet files should be downloaded to `/mnt/data`. If any team would like some WARC/ARC files from a collection, please work with Nick Ruest as soon as possible (`ruebot` in Slack).
 
 **Ivy Plus Libraries Confederation**
 
@@ -102,7 +104,7 @@ Scholarly derivatives created on cloud.archivesunleashed.org, and Parquet files 
 - [Eastern Europe and Former Soviet Union Web Archive](https://zenodo.org/record/3633031)
 - [Independent Documentary Filmmakers from China, Hong Kong, and Taiwan Web Archive](https://zenodo.org/record/3632912)
 
-** Columbia University Libraries **
+**Columbia University Libraries**
 
 - [General](https://zenodo.org/record/3633290)
 - [Resistance](https://zenodo.org/record/3660457)
