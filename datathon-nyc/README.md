@@ -2,20 +2,7 @@
 
 ## Virtual Machines
 
-**c8-30gb-430gb machines**
-
-- 206.167.181.146
-- 206.167.182.14
-- 206.167.181.104
-- 206.167.181.105
-
-**c8-45gb-430gb machine**
-
-- 206.167.181.253
-
-### System info
-
-**c8-30gb-430gb**
+### c8-30gb-430gb
 
 - 8 cores
 - 30G RAM
@@ -29,7 +16,15 @@
   - `SPARK_HOME=/home/ubuntu/spark`
 - jq
 
-**c8-45gb-430gb**
+Four machines available:
+
+- 206.167.181.146 (datathon1)
+- 206.167.182.14 (datathon2)
+- 206.167.181.104 (datathon3)
+- 206.167.181.105 (datathon4)
+
+### c8-45gb-430gb
+
 - 8 Cores
 - 45G RAM
 - 11G `/`
@@ -41,6 +36,10 @@
 - Spark 2.4.5
   - `SPARK_HOME=/home/ubuntu/spark`
 - jq
+
+One machine available:
+
+- 206.167.181.253 (datathon5)
 
 ## Getting Started
 
