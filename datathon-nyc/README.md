@@ -1,5 +1,12 @@
 # Archives Unleashed NYC Datathon
 
+We have a couple options for analysis platforms ([datasets are listed below](datathon-nyc#datasets)):
+
+- If you'd like to keep things easy, and browser based, you're welcome to use [Google Colaboratory](https://colab.research.google.com). We have a couple options available in the repo ([parquet_pandas_example.ipynb](https://github.com/archivesunleashed/notebooks/blob/master/parquet_pandas_example.ipynb), [parquet_pandas_stonewall.ipynb](https://github.com/archivesunleashed/notebooks/blob/master/parquet_pandas_stonewall.ipynb), [parquet_pyspark_example.ipynb](https://github.com/archivesunleashed/notebooks/blob/master/parquet_pyspark_example.ipynb), [parquet_text_analyis.ipynb](https://github.com/archivesunleashed/notebooks/blob/master/parquet_text_analyis.ipynb), and [parquet_text_analyis_popline.ipynb](https://github.com/archivesunleashed/notebooks/blob/master/parquet_text_analyis_popline.ipynb)) that can be used as starting points. We recommend loading one up by clicking on the "Open in Colab" button on the top of a notebook, and saving a copy of whatever you do.
+- If you're comfortable with the command line, you're welcome to use one of the virtual machines provided by [Compute Canada](https://www.computecanada.ca/home/). 
+
+The virtual machines, and the machine backing a given Google Colab notebook are roughly similar. If you'd like to use a Compute Canada virtual machine, you'll have a bit more storage space, and you'll have a lot more control over things. You're welcome to install what you need to on the machines with `apt`.
+
 ## Virtual Machines
 
 ### c8-30gb-430gb
