@@ -52,6 +52,8 @@ One machine available:
 
 Please note, the datathon hosts (Ian, Jimmy, Nick, and Sam) all use macOS or Linux   variants. If you are on a Windows machine, things might be a little bit more difficult. If you have the [Windows SubSystem for Linux](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/) installed, you should be in a really good place.
 
+You may want to create a separate folder on your desktop or home directory to keep all of your datathon work in; this will also allow you to point terminal to one directory (folder).
+
 ### Shell into assigned VM
 
 Ian or Nick will provide you with key to access a virtual machine via ssh. You'll need to download or copy that key to your own machine, and apply the appropriate permissions to it. The permissions on the key should be `600`. You can do this with the following command on your own laptop before shelling in:
