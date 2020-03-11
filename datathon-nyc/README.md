@@ -21,7 +21,7 @@ Unfortunately, because we can’t meet in person we won’t be holding a dinner/
 - **[Getting Started w/ your Team](https://docs.google.com/document/d/1VR3YcLG8zu21JUH0WOXPd8fgFWA28fANXdU6gOeBhUQ/edit)**: a simple Google document that provides a few ideas on what groups can do when beginning their projects.  
 - **[Google Folder](https://drive.google.com/drive/u/0/folders/1KdqBwpUTheYei_IjPaIXFxVLI5UH1_dL)**: we have set up workspaces via our Google drive for teams to brainstorm, prepare docs, and house final presentation slides. Please feel free to use this or any other space for your workflow.
 - **Folder on your desktop**: a dedicated folder on your desktop will come in handy when you are using terminal and need to point to a directory (folder). It’s also nice to be able to keep all your work in the same place.
-- **Text editor**: Any text editor will do. If you don't have one installed we recommend trying  [Sublime text](https://www.sublimetext.com) (Mac Users) or [Notepad++](https://notepad-plus-plus.org) (Windows users).
+- **Text editor**: Any text editor will do. If you don't have one installed we recommend trying  [Sublime Text](https://www.sublimetext.com) (Mac Users) or [Notepad++](https://notepad-plus-plus.org) (Windows users).
 
 ## Homework Refresher
 
