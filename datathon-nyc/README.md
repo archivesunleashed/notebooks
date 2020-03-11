@@ -24,7 +24,7 @@ Welcome to the Archives Unleashed NY Datathon! Below you will find a variety of 
 
 ## Schedule
 
-The datathon will be held March 26-27th (EST) online via (Zoom). For a breakdown of the schedule please see: [https://archivesunleashed.org/new-york/#schedule](https://archivesunleashed.org/new-york/#schedule)
+The datathon will be held March 26-27th (EST) online via (Zoom). A breakdown of the schedule is available [here](https://archivesunleashed.org/new-york/#schedule).
 
 The event will start off with introductions and a look at the tools you’ll be using. After a team formation activity, the majority of our time will be dedicated for group work. We also have time allotted on each day for lightning talks; these are 3-5 minute informal presentations, where participants can volunteer to share information about web archiving related topics. Past talks have focused on various projects and research participants were involved in.
 
@@ -54,7 +54,7 @@ Unfortunately, because we can’t meet in person we won’t be holding a dinner/
   - [Grep - Filtering the Full-Text Derivative File](https://cloud.archivesunleashed.org/derivatives/text-filtering)
   - [Text Analysis Part One: Beyond the Keyword Search: Using AntConc](https://cloud.archivesunleashed.org/derivatives/text-antconc)
   - [Text Analysis Part Two: Sentiment Analysis With the Natural Language Toolkit](https://cloud.archivesunleashed.org/derivatives/text-sentiment)
-- Voyant: [https://voyant-tools.org](https://voyant-tools.org)
+- [Voyant](https://voyant-tools.org)
 
 Also don’t forget about Excel (or Google spreadsheets)!
 
