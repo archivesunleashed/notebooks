@@ -8,16 +8,13 @@ Welcome to the Archives Unleashed NY Datathon! Below you will find a variety of 
 * [Homework Refresher](#homework-refresher)
 * [Additional/External Tools for Analysis](#additionalexternal-tools-for-analysis)
 * [Analysis Platforms](#analysis-platforms)
+* [Inspiration](#inspiration)
 * [Virtual Machines](#virtual-machines)
-  * [c8-30gb-430gb](#c8-30gb-430gb)
-  * [c8-45gb-430gb](#c8-45gb-430gb)
 * [Getting Started](#getting-started)
   * [Shell into assigned VM](#shell-into-assigned-vm)
   * [Start Juypter Notebook](#start-juypter-notebook)
-    * [Inspiration](#inspiration)
   * [Start Spark with AUT](#start-spark-with-aut)
 * [Datasets](#datasets)
-* [Sponsors + Special Thanks](#sponsors--special-thanks)
 
 ## Requirements
 
@@ -65,14 +62,29 @@ Also don’t forget about Excel (or Google spreadsheets)!
 
 We have a couple options for analysis platforms ([datasets are listed below](datathon-nyc#datasets)):
 
-- If you'd like to keep things easy, and browser based, you're welcome to use [Google Colaboratory](https://colab.research.google.com). We have a couple options available in the repo ([parquet_pandas_example.ipynb](https://github.com/archivesunleashed/notebooks/blob/master/parquet_pandas_example.ipynb), [parquet_pandas_stonewall.ipynb](https://github.com/archivesunleashed/notebooks/blob/master/parquet_pandas_stonewall.ipynb), [parquet_pyspark_example.ipynb](https://github.com/archivesunleashed/notebooks/blob/master/parquet_pyspark_example.ipynb), [parquet_text_analyis.ipynb](https://github.com/archivesunleashed/notebooks/blob/master/parquet_text_analyis.ipynb), and [parquet_text_analyis_popline.ipynb](https://github.com/archivesunleashed/notebooks/blob/master/parquet_text_analyis_popline.ipynb)) that can be used as starting points. We recommend loading one up by clicking on the "Open in Colab" button on the top of a notebook, and saving a copy of whatever you do.
+- If you'd like to keep things relatively easy, and browser based, you're welcome to use [Google Colaboratory](https://colab.research.google.com). We have a couple options, in addition to the two mentioned above, available in the repo ([parquet_pandas_example.ipynb](https://github.com/archivesunleashed/notebooks/blob/master/parquet_pandas_example.ipynb), [parquet_pyspark_example.ipynb](https://github.com/archivesunleashed/notebooks/blob/master/parquet_pyspark_example.ipynb), and [parquet_text_analyis.ipynb](https://github.com/archivesunleashed/notebooks/blob/master/parquet_text_analyis.ipynb)) that can be used as starting points.
 - If you're comfortable with the command line, you're welcome to use one of the virtual machines provided by [Compute Canada](https://www.computecanada.ca/home/). 
 
-The virtual machines, and the machine backing a given Google Colab notebook are roughly similar. If you'd like to use a Compute Canada virtual machine, you'll have a bit more storage space, and you'll have a lot more control over things. You're welcome to install what you need to on the machines with `apt`.
+The virtual machines, and the machine backing a given Google Colab notebook are roughly similar resource-wise. If you'd like to use a Compute Canada virtual machine, you'll have a bit more storage space, and you'll have much more control. You're welcome to install what you need to on the machines with `apt` to complete your project.
+
+## Inspiration
+
+If you're looking for inspiration, check out the following notebook resources:
+
+- [GLAM Workbench](https://glam-workbench.github.io/)
+- [Awesome Jupyter GLAM](https://github.com/LibraryCarpentry/awesome-jupyter-glam)
+- [Getting started with ODate](https://o-date.github.io/support/notebooks-toc/)
+- [Jupyter notebooks for digital humanities](https://github.com/quinnanya/dh-jupyter)
+- [Spark NLP Workshop](https://github.com/JohnSnowLabs/spark-nlp-workshop)
+- [UW Interactive Data Lab, Data Visualization Curriculum](https://github.com/uwdata/visualization-curriculum)
+- [Sentiment Analysis with Pyspark](https://github.com/tthustla/setiment_analysis_pyspark/blob/master/Sentiment%20Analysis%20with%20PySpark.ipynb)
+- [Analysis of Car Accidents in Canada using PySpark](https://github.com/SinghGursimran/Analysis-of-Car-Accidents-in-Canada-using-PySpark/)
+
+If you'd like to add your notebook to the repo at the end of the datathon, we'd love to have it!
 
 ## Virtual Machines
 
-### c8-30gb-430gb
+**c8-30gb-430gb**
 
 - 8 cores
 - 30G RAM
@@ -93,7 +105,7 @@ Four machines available:
 - 206.167.181.104 (datathon3)
 - 206.167.181.105 (datathon4)
 
-### c8-45gb-430gb
+**c8-45gb-430gb**
 
 - 8 Cores
 - 45G RAM
@@ -121,21 +133,21 @@ You may want to create a separate folder on your desktop or home directory to ke
 
 Ian or Nick will provide you with key to access a virtual machine via ssh. You'll need to download or copy that key to your own machine, and apply the appropriate permissions to it. The permissions on the key should be `600`. You can do this with the following command on your own laptop before shelling in:
 
-  ```
-  chmod 600 /path/to/archives-hackathon.key
-  ```
+```bash
+chmod 600 /path/to/archives-hackathon.key
+```
 
 Once you have the permissions set on the key, you can shell into your assigned datathon virtual machine with the provided key, and IP address:
 
 Example:
 
-```
+```bash
 ssh -L 8888:localhost:8888 -i ~/.ssh/archives-hackathon.key ubuntu@206.167.181.253
 ```
 
 ### Start Juypter Notebook
 
-```
+```bash
 cd /mnt/notebooks/datathon-nyc
 jupyter notebook --no-browser
 ```
@@ -148,26 +160,12 @@ Select one of the two example notebooks.
 
 ![](../assets/juypter.png)
 
-#### Inspiration
-
-If you're looking for inspiration, check out the following notebook resources:
-
-- [GLAM Workbench](https://glam-workbench.github.io/)
-- [Awesome Jupyter GLAM](https://github.com/LibraryCarpentry/awesome-jupyter-glam)
-- [Getting started with ODate](https://o-date.github.io/support/notebooks-toc/)
-- [Jupyter notebooks for digital humanities](https://github.com/quinnanya/dh-jupyter)
-- [Spark NLP Workshop](https://github.com/JohnSnowLabs/spark-nlp-workshop)
-- [UW Interactive Data Lab, Data Visualization Curriculum](https://github.com/uwdata/visualization-curriculum)
-- [Sentiment Analysis with Pyspark](https://github.com/tthustla/setiment_analysis_pyspark/blob/master/Sentiment%20Analysis%20with%20PySpark.ipynb)
-- [Analysis of Car Accidents in Canada using PySpark](https://github.com/SinghGursimran/Analysis-of-Car-Accidents-in-Canada-using-PySpark/)
-
-If you'd like to add your notebook to the repo at the end of the datathon, we'd love to have it!
 
 ### Start Spark with AUT
 
 If you'd like to use Apache Spark and the Archives Unleashed Toolkit to analyze WARC/ARCs, you can get Spark started with the toolkit with the following command:
 
-```
+```bash
 ~/spark/bin/spark-shell --packages "io.archivesunleashed:aut:0.50.0"
 ```
 
@@ -210,6 +208,6 @@ Scholarly derivatives created on cloud.archivesunleashed.org, and Parquet files 
 
 This event is possible thanks to the generous support from: 
 
-[Andrew W. Mellon Foundation](https://mellon.org/). [Columbia University Libraries](https://library.columbia.edu), [Ivy Plus Libraries Confederation](https://library.columbia.edu/collections/web-archives/Ivy_Plus_Libraries.html),[Faculty of Arts](https://uwaterloo.ca/arts/) and [David R. Cheriton School of Computer Science](https://cs.uwaterloo.ca/) at the [University of Waterloo](https://uwaterloo.ca/), [York University Libraries](https://www.library.yorku.ca/web/),[Compute Canada](https://www.computecanada.ca/), and [Start Smart Labs](http://www.startsmartlabs.com/). 
+[Andrew W. Mellon Foundation](https://mellon.org/), [Columbia University Libraries](https://library.columbia.edu), [Ivy Plus Libraries Confederation](https://library.columbia.edu/collections/web-archives/Ivy_Plus_Libraries.html), [Faculty of Arts](https://uwaterloo.ca/arts/) and [David R. Cheriton School of Computer Science](https://cs.uwaterloo.ca/) at the [University of Waterloo](https://uwaterloo.ca/), [York University Libraries](https://www.library.yorku.ca/web/), [Compute Canada](https://www.computecanada.ca/), and [Start Smart Labs](http://www.startsmartlabs.com/).
 
-We’d also like to say a special thanks to Columbia University and Ivy Plus libraries Confederation for for providing access to their collections!
+We'd also like to say a special thanks to Columbia University and Ivy Plus libraries Confederation for for providing access to their collections!
