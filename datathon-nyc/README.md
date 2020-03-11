@@ -93,6 +93,10 @@ If you're looking for inspiration, check out the following notebook resources:
 - [Awesome Jupyter GLAM](https://github.com/LibraryCarpentry/awesome-jupyter-glam)
 - [Getting started with ODate](https://o-date.github.io/support/notebooks-toc/)
 - [Jupyter notebooks for digital humanities](https://github.com/quinnanya/dh-jupyter)
+- [Spark NLP Workshop](https://github.com/JohnSnowLabs/spark-nlp-workshop)
+- [UW Interactive Data Lab, Data Visualization Curriculum](https://github.com/uwdata/visualization-curriculum)
+- [Sentiment Analysis with Pyspark](https://github.com/tthustla/setiment_analysis_pyspark/blob/master/Sentiment%20Analysis%20with%20PySpark.ipynb)
+- [Analysis of Car Accidents in Canada using PySpark](https://github.com/SinghGursimran/Analysis-of-Car-Accidents-in-Canada-using-PySpark/)
 
 If you'd like to add your notebook to the repo at the end of the datathon, we'd love to have it!
 
