@@ -20,15 +20,15 @@ Unfortunately, because we can’t meet in person we won’t be holding a dinner/
 
 - **[Getting Started w/ your Team](https://docs.google.com/document/d/1VR3YcLG8zu21JUH0WOXPd8fgFWA28fANXdU6gOeBhUQ/edit)**: a simple Google document that provides a few ideas on what groups can do when beginning their projects.  
 - **[Google Folder](https://drive.google.com/drive/u/0/folders/1KdqBwpUTheYei_IjPaIXFxVLI5UH1_dL)**: we have set up workspaces via our Google drive for teams to brainstorm, prepare docs, and house final presentation slides. Please feel free to use this or any other space for your workflow.
-- **Folder on your desktop**: a dedicated folder on your desktop will come in handy when you are using terminal and need to point to a directory (folder). It’s also nice to be able to keep all your work in the same place
-- **Text editor**: Any text editor will do. If you don't have one installed we recommend trying  [Sublime text](https://www.sublimetext.com) (Mac Users) | [{Notepad++](https://notepad-plus-plus.org) (Windows users)
+- **Folder on your desktop**: a dedicated folder on your desktop will come in handy when you are using terminal and need to point to a directory (folder). It’s also nice to be able to keep all your work in the same place.
+- **Text editor**: Any text editor will do. If you don't have one installed we recommend trying  [Sublime text](https://www.sublimetext.com) (Mac Users) or [Notepad++](https://notepad-plus-plus.org) (Windows users).
 
 ## Homework Refresher
 
   -  **[Command Line/Terminal Tutorial](https://programminghistorian.org/en/lessons/intro-to-bash)**: For those new to command line, or if you'd like a refresher, check out this tutorial on the Programing Historian Introduction to the Bash Command Line by Ian Milligan and James Baker.
 
   -  **[Archives Unleashed Toolkit Walkthrough](https://github.com/archivesunleashed/aut-docs/blob/master/current/toolkit-walkthrough.md)**: While we’ll be doing a lot of work in the notebooks during the datathon, it is good to have a conceptual understanding around working with data.
-  -  **[Archives Unleashed Notebooks Reading]**: Nick Ruest has been working on some new methods of working with derivatives created through the Archives Unleashed Cloud. To learn more about this development, check out our latest Medium post: Cloud-hosted web archive data: The winding path to web archive collections as data.
+  -  **Archives Unleashed Notebooks Reading**: Nick Ruest has been working on some new methods of working with derivatives created through the Archives Unleashed Cloud. To learn more about this development, check out our latest Medium post: [Cloud-hosted web archive data: The winding path to web archive collections as data](https://news.archivesunleashed.org/cloud-hosted-web-archive-data-the-winding-path-to-web-archive-collections-as-data-a2b3428701b7).
 
   - **[Notebooks Repository Walkthrough]()**: we suggest that you run through the two created for this event to become familiar with how the environment works and the types of analysis you can run. In each link click the “Open in Colab” button at the top of the page to launch and start exploring.
 	-  [parquet_pandas_stonewall.ipynb](https://github.com/archivesunleashed/notebooks/blob/master/parquet_pandas_stonewall.ipynb)
