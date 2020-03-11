@@ -85,6 +85,17 @@ Select one of the two example notebooks.
 
 ![](../assets/juypter.png)
 
+#### Inspiration
+
+If you're looking for inspiration, check out the following notebook resources:
+
+- [GLAM Workbench](https://glam-workbench.github.io/)
+- [Awesome Jupyter GLAM](https://github.com/LibraryCarpentry/awesome-jupyter-glam)
+- [Getting started with ODate](https://o-date.github.io/support/notebooks-toc/)
+- [Jupyter notebooks for digital humanities](https://github.com/quinnanya/dh-jupyter)
+
+If you'd like to add your notebook to the repo at the end of the datathon, we'd love to have it!
+
 ### Start Spark with AUT
 
 If you'd like to use Apache Spark and the Archives Unleashed Toolkit to analyze WARC/ARCs, you can get Spark started with the toolkit with the following command:
