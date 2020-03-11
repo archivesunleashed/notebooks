@@ -2,6 +2,23 @@
 
 Welcome to the Archives Unleashed NY Datathon! Below you will find a variety of resources that will be useful throughout our event.
 
+* [Requirements](#requirements)
+* [Schedule](#schedule)
+* [Team Collaboration Resources](#team-collaboration-resources)
+* [Homework Refresher](#homework-refresher)
+* [Additional/External Tools for Analysis](#additionalexternal-tools-for-analysis)
+* [Analysis Platforms](#analysis-platforms)
+* [Virtual Machines](#virtual-machines)
+  * [c8-30gb-430gb](#c8-30gb-430gb)
+  * [c8-45gb-430gb](#c8-45gb-430gb)
+* [Getting Started](#getting-started)
+  * [Shell into assigned VM](#shell-into-assigned-vm)
+  * [Start Juypter Notebook](#start-juypter-notebook)
+    * [Inspiration](#inspiration)
+  * [Start Spark with AUT](#start-spark-with-aut)
+* [Datasets](#datasets)
+* [Sponsors + Special Thanks](#sponsors--special-thanks)
+
 ## Requirements
 
 - **Zoom** (login information will be provided via Slack/email).
@@ -10,7 +27,7 @@ Welcome to the Archives Unleashed NY Datathon! Below you will find a variety of 
 
 ## Schedule
 
-The datathon will be held March 26-27th (EST) online (EST) via (Zoom). For a breakdown of the schedule please see: [https://archivesunleashed.org/new-york/#schedule](https://archivesunleashed.org/new-york/#schedule)
+The datathon will be held March 26-27th (EST) online via (Zoom). For a breakdown of the schedule please see: [https://archivesunleashed.org/new-york/#schedule](https://archivesunleashed.org/new-york/#schedule)
 
 The event will start off with introductions and a look at the tools you’ll be using. After a team formation activity, the majority of our time will be dedicated for group work. We also have time allotted on each day for lightning talks; these are 3-5 minute informal presentations, where participants can volunteer to share information about web archiving related topics. Past talks have focused on various projects and research participants were involved in.
 
@@ -18,32 +35,28 @@ Unfortunately, because we can’t meet in person we won’t be holding a dinner/
 
 ## Team Collaboration Resources
 
-- **[Getting Started w/ your Team](https://docs.google.com/document/d/1VR3YcLG8zu21JUH0WOXPd8fgFWA28fANXdU6gOeBhUQ/edit)**: a simple Google document that provides a few ideas on what groups can do when beginning their projects.  
+- **[Getting Started with your Team](https://docs.google.com/document/d/1VR3YcLG8zu21JUH0WOXPd8fgFWA28fANXdU6gOeBhUQ/edit)**: a simple Google document that provides a few ideas on what groups can do when beginning their projects.  
 - **[Google Folder](https://drive.google.com/drive/u/0/folders/1KdqBwpUTheYei_IjPaIXFxVLI5UH1_dL)**: we have set up workspaces via our Google drive for teams to brainstorm, prepare docs, and house final presentation slides. Please feel free to use this or any other space for your workflow.
 - **Folder on your desktop**: a dedicated folder on your desktop will come in handy when you are using terminal and need to point to a directory (folder). It’s also nice to be able to keep all your work in the same place.
 - **Text editor**: Any text editor will do. If you don't have one installed we recommend trying  [Sublime Text](https://www.sublimetext.com) (Mac Users) or [Notepad++](https://notepad-plus-plus.org) (Windows users).
 
 ## Homework Refresher
 
-  -  **[Command Line/Terminal Tutorial](https://programminghistorian.org/en/lessons/intro-to-bash)**: For those new to command line, or if you'd like a refresher, check out this tutorial on the Programing Historian Introduction to the Bash Command Line by Ian Milligan and James Baker.
-
-  -  **[Archives Unleashed Toolkit Walkthrough](https://github.com/archivesunleashed/aut-docs/blob/master/current/toolkit-walkthrough.md)**: While we’ll be doing a lot of work in the notebooks during the datathon, it is good to have a conceptual understanding around working with data.
-  -  **Archives Unleashed Notebooks Reading**: Nick Ruest has been working on some new methods of working with derivatives created through the Archives Unleashed Cloud. To learn more about this development, check out our latest Medium post: [Cloud-hosted web archive data: The winding path to web archive collections as data](https://news.archivesunleashed.org/cloud-hosted-web-archive-data-the-winding-path-to-web-archive-collections-as-data-a2b3428701b7).
-
-  - **[Notebooks Repository Walkthrough]()**: we suggest that you run through the two created for this event to become familiar with how the environment works and the types of analysis you can run. In each link click the “Open in Colab” button at the top of the page to launch and start exploring.
+-  **[Command Line/Terminal Tutorial](https://programminghistorian.org/en/lessons/intro-to-bash)**: For those new to command line, or if you'd like a refresher, check out this tutorial on the Programing Historian Introduction to the Bash Command Line by Ian Milligan and James Baker.
+-  **[Archives Unleashed Toolkit Walkthrough](https://github.com/archivesunleashed/aut-docs/blob/master/current/toolkit-walkthrough.md)**: While we’ll be doing a lot of work in the notebooks during the datathon, it is good to have a conceptual understanding around working with data.
+-  **Archives Unleashed Notebooks Reading**: Nick Ruest has been working on some new methods of working with derivatives created through the Archives Unleashed Cloud. To learn more about this development, check out our latest Medium post: [Cloud-hosted web archive data: The winding path to web archive collections as data](https://news.archivesunleashed.org/cloud-hosted-web-archive-data-the-winding-path-to-web-archive-collections-as-data-a2b3428701b7).
+- **[Notebooks Repository Walkthrough]()**: we suggest that you run through the two created for this event to become familiar with how the environment works and the types of analysis you can run. In each link click the “Open in Colab” button at the top of the page to launch and start exploring.
 	-  [parquet_pandas_stonewall.ipynb](https://github.com/archivesunleashed/notebooks/blob/master/parquet_pandas_stonewall.ipynb)
 	-  [parquet_text_analyis_popline.ipynb](https://github.com/archivesunleashed/notebooks/blob/master/parquet_text_analyis_popline.ipynb)
 
 ## Additional/External Tools for Analysis
 
-
 - [AUK Tutorials](https://cloud.archivesunleashed.org/derivatives): provide basics on using a variety of external tools to work with dataset derivatives.
-    - [An Introduction to Gephi (Beginner)](https://cloud.archivesunleashed.org/derivatives/basic-gephi)
-    - [Network Graphing Archived Websites With Gephi (Intermediate)](https://cloud.archivesunleashed.org/derivatives/gephi)
-    - [Grep - Filtering the Full-Text Derivative File](https://cloud.archivesunleashed.org/derivatives/text-filtering)
-    - [Text Analysis Part One: Beyond the Keyword Search: Using AntConc](https://cloud.archivesunleashed.org/derivatives/text-antconc)
-    - [Text Analysis Part Two: Sentiment Analysis With the Natural Language Toolkit](https://cloud.archivesunleashed.org/derivatives/text-sentiment)
-
+  - [An Introduction to Gephi (Beginner)](https://cloud.archivesunleashed.org/derivatives/basic-gephi)
+  - [Network Graphing Archived Websites With Gephi (Intermediate)](https://cloud.archivesunleashed.org/derivatives/gephi)
+  - [Grep - Filtering the Full-Text Derivative File](https://cloud.archivesunleashed.org/derivatives/text-filtering)
+  - [Text Analysis Part One: Beyond the Keyword Search: Using AntConc](https://cloud.archivesunleashed.org/derivatives/text-antconc)
+  - [Text Analysis Part Two: Sentiment Analysis With the Natural Language Toolkit](https://cloud.archivesunleashed.org/derivatives/text-sentiment)
 - Voyant: [https://voyant-tools.org](https://voyant-tools.org)
 
 Also don’t forget about Excel (or Google spreadsheets)!
