@@ -79,6 +79,7 @@ If you're looking for inspiration, check out the following notebook resources:
 - [UW Interactive Data Lab, Data Visualization Curriculum](https://github.com/uwdata/visualization-curriculum)
 - [Sentiment Analysis with Pyspark](https://github.com/tthustla/setiment_analysis_pyspark/blob/master/Sentiment%20Analysis%20with%20PySpark.ipynb)
 - [Analysis of Car Accidents in Canada using PySpark](https://github.com/SinghGursimran/Analysis-of-Car-Accidents-in-Canada-using-PySpark/)
+- [Save Page Now Analysis](https://github.com/edsu/spn)
 
 If you'd like to add your notebook to the repo at the end of the datathon, we'd love to have it!
 
