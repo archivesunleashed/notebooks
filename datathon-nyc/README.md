@@ -24,18 +24,21 @@ Welcome to the Archives Unleashed NY Datathon! Below you will find a variety of 
 
 ## Schedule
 
-The datathon will be held March 26-27th (EST) online via (Zoom). A breakdown of the schedule is available [here](https://archivesunleashed.org/new-york/#schedule).
+The datathon will be held March 26-27th (EST) online via (Zoom). 
 
-The event will start off with introductions and a look at the tools you’ll be using. After a team formation activity, the majority of our time will be dedicated for group work. We also have time allotted on each day for lightning talks; these are 3-5 minute informal presentations, where participants can volunteer to share information about web archiving related topics. Past talks have focused on various projects and research participants were involved in.
+The event will start off with introductions and a look at the tools you’ll be using. After a team formation activity, the majority of our time will be dedicated for group work. We will also be doing a few check-in via Zoom to make sure everyone is doing fine. Final presentations will happen on Friday.
+
+![](../assets/ny-schedule.png)
 
 Unfortunately, because we can’t meet in person we won’t be holding a dinner/social, but feel free to use our hashtag #hackarchives in your social media posts. 
 
 ## Team Collaboration Resources
-
-- **[Getting Started with your Team](https://docs.google.com/document/d/1VR3YcLG8zu21JUH0WOXPd8fgFWA28fANXdU6gOeBhUQ/edit)**: a simple Google document that provides a few ideas on what groups can do when beginning their projects.  
-- **[Google Folder](https://drive.google.com/drive/u/0/folders/1KdqBwpUTheYei_IjPaIXFxVLI5UH1_dL)**: we have set up workspaces via our Google drive for teams to brainstorm, prepare docs, and house final presentation slides. Please feel free to use this or any other space for your workflow.
-- **Folder on your desktop**: a dedicated folder on your desktop will come in handy when you are using terminal and need to point to a directory (folder). It’s also nice to be able to keep all your work in the same place.
+  
+- **[Team Final Projects Folder](https://drive.google.com/drive/u/1/folders/138xKFQwHrjJEnruZ21lkK5UAxFPU2GLz)**: we have set up a folder where you can directly import/workon your presentations. We ask that you use Google Slides to help us with quick transitions between groupd. 
+- **Folder on your desktop**: we recommend setting up a dedicated folder on your desktop - it will come in handy when you are using terminal and need to point to a directory (folder). It’s also nice to be able to keep all your work in the same place.
 - **Text editor**: Any text editor will do. If you don't have one installed we recommend trying  [Sublime Text](https://www.sublimetext.com) (Mac Users) or [Notepad++](https://notepad-plus-plus.org) (Windows users).
+- **Project Examples**: Need a bit more inspiration before starting? Checkout projects from previous datathons: [Toronto](https://archivesunleashed.org/toronto/) |  [Vancouver](https://archivesunleashed.org/vancouver/) | [Washington](https://archivesunleashed.org/washington/)
+
 
 ## Homework Refresher
 
