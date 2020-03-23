@@ -26,15 +26,15 @@ Welcome to the Archives Unleashed NY Datathon! Below you will find a variety of 
 
 The datathon will be held March 26-27th (EST) online via (Zoom). 
 
-The event will start off with introductions and a look at the tools you’ll be using. After a team formation activity, the majority of our time will be dedicated for group work. We will also be doing a few check-in via Zoom to make sure everyone is doing fine. Final presentations will happen on Friday.
+The event will start off with introductions and a look at the tools you’ll be using. After a team formation activity, the majority of our time will be dedicated for group work. We will also be doing a few check-ins via Zoom to make sure everyone is doing fine. Final presentations will happen on Friday.
 
 ![](../assets/ny-schedule.png)
 
-Unfortunately, because we can’t meet in person we won’t be holding a dinner/social, but feel free to use our hashtag #hackarchives in your social media posts. 
+Unfortunately, because we can’t meet in person we won’t be holding a dinner/social, but feel free to use our hashtag **#hackarchives** in your social media posts. 
 
 ## Team Collaboration Resources
   
-- **[Team Final Projects Folder](https://drive.google.com/drive/u/1/folders/138xKFQwHrjJEnruZ21lkK5UAxFPU2GLz)**: we have set up a folder where you can directly import/workon your presentations. We ask that you use Google Slides to help us with quick transitions between groupd. 
+- **[Team Final Projects Folder](https://drive.google.com/drive/u/1/folders/138xKFQwHrjJEnruZ21lkK5UAxFPU2GLz)**: we have set up a folder where you can directly import/work on your presentations. We ask that you use Google Slides to help us with quick transitions between groups. 
 - **Folder on your desktop**: we recommend setting up a dedicated folder on your desktop - it will come in handy when you are using terminal and need to point to a directory (folder). It’s also nice to be able to keep all your work in the same place.
 - **Text editor**: Any text editor will do. If you don't have one installed we recommend trying  [Sublime Text](https://www.sublimetext.com) (Mac Users) or [Notepad++](https://notepad-plus-plus.org) (Windows users).
 - **Project Examples**: Need a bit more inspiration before starting? Checkout projects from previous datathons: [Toronto](https://archivesunleashed.org/toronto/) |  [Vancouver](https://archivesunleashed.org/vancouver/) | [Washington](https://archivesunleashed.org/washington/)
