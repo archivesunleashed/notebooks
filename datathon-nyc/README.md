@@ -34,9 +34,10 @@ Unfortunately, because we can’t meet in person we won’t be holding a dinner/
 
 ## Team Collaboration Resources
   
-- **[Team Final Projects Folder](https://drive.google.com/drive/u/1/folders/138xKFQwHrjJEnruZ21lkK5UAxFPU2GLz)**: we have set up a folder where you can directly import/work on your presentations. We ask that you use Google Slides to help us with quick transitions between groups. 
-- **Folder on your desktop**: we recommend setting up a dedicated folder on your desktop - it will come in handy when you are using terminal and need to point to a directory (folder). It’s also nice to be able to keep all your work in the same place.
-- **Text editor**: Any text editor will do. If you don't have one installed we recommend trying  [Sublime Text](https://www.sublimetext.com) (Mac Users) or [Notepad++](https://notepad-plus-plus.org) (Windows users).
+- **[#NY Datathon (Online) Resources](https://drive.google.com/drive/u/0/folders/1KdqBwpUTheYei_IjPaIXFxVLI5UH1_dL)**: This is a shared folder for participants, housing our introductory Google slides, additional resources, and where teams will save their final presentations.
+- **[Team Final Projects Folder](https://drive.google.com/drive/u/0/folders/138xKFQwHrjJEnruZ21lkK5UAxFPU2GLz)**: we have set up a folder where you can directly work on your presentations. We ask that you use Google Slides to help us with quick transitions between groups. Please name your slides using the following convention: AU-NY2020-TeamName.
+- Make sure you have both a [Github Account](https://github.com/join) and [Google Account](https://accounts.google.com/signin/v2/identifier?service=g4np&passive=1209600&continue=https%3A%2F%2Fwww.google.com%2Fnonprofits%2Faccount%2Fsignup%3Flocality%3Dus&followup=https%3A%2F%2Fwww.google.com%2Fnonprofits%2Faccount%2Fsignup%3Flocality%3Dus&flowName=GlifWebSignIn&flowEntry=ServiceLogin) to work with our resources and your teams.
+- **[Quick Guide to Setting up Colab Notebooks](https://youtu.be/JDXQRUp_Tx4)**: If you need a quick review of how to set up your Colab Notebook environment, we have a short tutorial. 
 - **Project Examples**: Need a bit more inspiration before starting? Checkout projects from previous datathons: [Toronto](https://archivesunleashed.org/toronto/) |  [Vancouver](https://archivesunleashed.org/vancouver/) | [Washington](https://archivesunleashed.org/washington/)
 
 
