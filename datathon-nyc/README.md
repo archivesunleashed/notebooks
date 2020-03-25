@@ -20,6 +20,8 @@ Welcome to the Archives Unleashed NY Datathon! Below you will find a variety of 
 
 - **Zoom** (login information will be provided via Slack/email).
 - **Slack** (datathon-ny-2020): our team will use Slack to communicate with participants. You can also use this platform to create a team channel (free) to collaborate (text + calls) during the datathon.
+- [Github Account](https://github.com/join) and [Google Account](https://accounts.google.com/signin/v2/identifier?service=g4np&passive=1209600&continue=https%3A%2F%2Fwww.google.com%2Fnonprofits%2Faccount%2Fsignup%3Flocality%3Dus&followup=https%3A%2F%2Fwww.google.com%2Fnonprofits%2Faccount%2Fsignup%3Flocality%3Dus&flowName=GlifWebSignIn&flowEntry=ServiceLogin) to work with our resources and your teams.
+
 - **Wifi + Space**: since we are all working remotely, find yourself a comfortable working space with a reliable internet connection.
 
 ## Schedule
@@ -36,7 +38,6 @@ Unfortunately, because we can’t meet in person we won’t be holding a dinner/
   
 - **[#NY Datathon (Online) Resources](https://drive.google.com/drive/u/0/folders/1KdqBwpUTheYei_IjPaIXFxVLI5UH1_dL)**: This is a shared folder for participants, housing our introductory Google slides, additional resources, and where teams will save their final presentations.
 - **[Team Final Projects Folder](https://drive.google.com/drive/u/0/folders/138xKFQwHrjJEnruZ21lkK5UAxFPU2GLz)**: we have set up a folder where you can directly work on your presentations. We ask that you use Google Slides to help us with quick transitions between groups. Please name your slides using the following convention: AU-NY2020-TeamName.
-- Make sure you have both a [Github Account](https://github.com/join) and [Google Account](https://accounts.google.com/signin/v2/identifier?service=g4np&passive=1209600&continue=https%3A%2F%2Fwww.google.com%2Fnonprofits%2Faccount%2Fsignup%3Flocality%3Dus&followup=https%3A%2F%2Fwww.google.com%2Fnonprofits%2Faccount%2Fsignup%3Flocality%3Dus&flowName=GlifWebSignIn&flowEntry=ServiceLogin) to work with our resources and your teams.
 - **[Quick Guide to Setting up Colab Notebooks](https://youtu.be/JDXQRUp_Tx4)**: If you need a quick review of how to set up your Colab Notebook environment, we have a short tutorial. 
 - **Project Examples**: Need a bit more inspiration before starting? Checkout projects from previous datathons: [Toronto](https://archivesunleashed.org/toronto/) |  [Vancouver](https://archivesunleashed.org/vancouver/) | [Washington](https://archivesunleashed.org/washington/)
 
