@@ -1,6 +1,10 @@
 .ipynb_checkpoints/
 datathon-nyc/data/
 .DS_Store
+all-domains/
+full-text/
+test.gexf
+test.graphml
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
